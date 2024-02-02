@@ -1,0 +1,33 @@
+.top
+{
+    display: flex;
+    justify-content: space-between;
+}
+
+#topleft
+{
+    background-color: red;
+    height: 200px;
+    width: 50%;
+}
+
+#topright
+{
+    background-color: aqua;
+    height: 200px;
+    width: 50%;
+}
+
+#topleft
+{
+    background-color: red;
+    height: ;
+    width: ;
+}
+
+#topleft
+{
+    background-color: red;
+    height: ;
+    width: ;
+}
