@@ -1,33 +1,241 @@
-.top
-{
-    display: flex;
-    justify-content: space-between;
+body {
+  background-color: rgb(146, 145, 145);
+  margin: 0;
 }
 
-#topleft
-{
-    background-color: red;
-    height: 200px;
-    width: 50%;
+.top {
+  display: flex;
+  justify-content: space-between;
+  background-color: gray;
+  margin: 0;
 }
 
-#topright
-{
-    background-color: aqua;
-    height: 200px;
-    width: 50%;
+#topleft {
+  display: flex;
+  height: 200px;
+  width: 50%;
+  align-items: center;
 }
 
-#topleft
-{
-    background-color: red;
-    height: ;
-    width: ;
+#topright {
+  height: 200px;
+  width: 50%;
+  display: flex;
 }
 
-#topleft
-{
-    background-color: red;
-    height: ;
-    width: ;
+#imgdiv {
+  border: 3px rgb(146, 145, 145) solid;
+  border-radius: 50%;
+  height: 170px;
+  width: 170px;
+  overflow: hidden;
+  margin-left: 50px;
+}
+
+#myimg {
+  height: 170px;
+  width: 170px;
+}
+
+#topleft h2,
+#topleft h4 {
+  margin: 0;
+  text-align: center;
+}
+
+#imginfo {
+  margin-left: 50px;
+}
+
+.contactdetails {
+  display: flex;
+}
+.contactdetailsright {
+  margin: 5px;
+  margin-top: 20px;
+}
+
+.cdinfo {
+  font-weight: bolder;
+}
+
+.contactdetailsleft {
+  margin: 5px;
+  margin-top: 20px;
+}
+
+#bottom {
+  display: flex;
+  justify-content: space-between;
+  background-color: rgb(146, 145, 145);
+}
+
+#bottomleft {
+  display: flex;
+
+  height: 350px;
+  width: 50%;
+  align-items: center;
+}
+
+#bottomright {
+  height: 350px;
+  width: 50%;
+  display: flex;
+}
+
+.about {
+  width: 100%;
+  height: 100%;
+  padding-top: 1px;
+}
+
+.heading {
+  margin-top: 30px;
+}
+.heading span {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: larger;
+  font-weight: 900;
+  margin-left: 60px;
+}
+
+.desc {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.skill {
+  display: flex;
+}
+
+.skillheading {
+  margin-top: 30px;
+  margin-left: 30px;
+}
+
+.skillcontent {
+  margin: 10px;
+  height: 20px;
+  width: auto;
+  font-weight: bold;
+}
+
+.skillestimation {
+  margin-top: 30px;
+  margin-left: 30px;
+}
+
+.htmlbar {
+  display: flex;
+  margin: 10px;
+}
+
+.htmlknowledge {
+  height: 20px;
+  width: 300px;
+  background-color: blanchedalmond;
+  margin: 0;
+}
+
+.htmlfill {
+  height: 20px;
+  width: 100px;
+  background-color: black;
+  margin: 0;
+}
+
+.cssbar {
+  display: flex;
+  margin: 10px;
+}
+
+.cssknowledge {
+  height: 20px;
+  width: 330px;
+  background-color: blanchedalmond;
+  margin: 0;
+}
+
+.cssfill {
+  height: 20px;
+  width: 70px;
+  background-color: black;
+  margin: 0;
+}
+
+.bootstrapbar {
+  display: flex;
+  margin: 10px;
+}
+
+.bootstrapknowledge {
+  height: 20px;
+  width: 250px;
+  background-color: blanchedalmond;
+  margin: 0;
+}
+
+.bootstrapfill {
+  height: 20px;
+  width: 150px;
+  background-color: black;
+  margin: 0;
+}
+
+.javascriptbar {
+  display: flex;
+  margin: 10px;
+}
+
+.javascriptknowledge {
+  height: 20px;
+  width: 230px;
+  background-color: blanchedalmond;
+  margin: 0;
+}
+
+.javascriptfill {
+  height: 20px;
+  width: 170px;
+  background-color: black;
+  margin: 0;
+}
+
+.javabar {
+  display: flex;
+  margin: 10px;
+}
+
+.javaknowledge {
+  height: 20px;
+  width: 200px;
+  background-color: blanchedalmond;
+  margin: 0;
+}
+
+.javafill {
+  height: 20px;
+  width: 200px;
+  background-color: black;
+  margin: 0;
+}
+
+.sqlbar {
+  display: flex;
+  margin: 10px;
+}
+
+.sqlknowledge {
+  height: 20px;
+  width: 300px;
+  background-color: blanchedalmond;
+  margin: 0;
+}
+
+.sqlfill {
+  height: 20px;
+  width: 100px;
+  background-color: black;
+  margin: 0;
 }
